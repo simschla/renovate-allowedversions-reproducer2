@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":semanticCommits"
+  ],
+  "prConcurrentLimit": 3,
+  "prHourlyLimit": 10,
+  "dependencyDashboard": false,
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "commitMessageSuffix": "[SECURITY-{{{vulnerabilitySeverity}}}]"
+  },
+  "packageRules": [
+    // guava has android and jre versions, only use jre versions
+    {
+      "matchPackageNames": [
+        "com.google.guava:guava"
+      ],
+      "allowedVersions": "/^.+-jre$/"
+    }
+  ]
+}

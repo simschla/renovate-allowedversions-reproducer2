@@ -1,0 +1,9 @@
+[versions]
+guava = "21.0"
+
+[libraries]
+guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
+
+[bundles]
+
+[plugins]
