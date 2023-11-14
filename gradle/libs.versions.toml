@@ -1,5 +1,5 @@
 [versions]
-guava = "21.0"
+guava = "32.0.0-android"
 
 [libraries]
 guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
