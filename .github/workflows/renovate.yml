@@ -28,4 +28,4 @@ jobs:
           # Renovate version to use. Defaults to latest.
           # renovate-version: # optional
         env:
-          RENOVATE_REPOSITORIES: simschla/renovate-allowedversions-reproducer
+          RENOVATE_REPOSITORIES: simschla/renovate-allowedversions-reproducer2
