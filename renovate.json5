@@ -17,7 +17,7 @@
       "matchPackageNames": [
         "com.google.guava:guava"
       ],
-      "allowedVersions": "/^.+-jre$/"
+      "versionCompatibility": "^(?<version>[0-9.]+)(?<compatibility>(-jre)?)$"
     }
   ]
 }
